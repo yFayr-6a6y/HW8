@@ -47,7 +47,7 @@ public class Main {
             double interest = totalSecond * procent;
             totalSecond += interest;
             if (monthSecond % 6 == 0)
-                System.out.printf("Месяц %d, накоплено %.2f%n", monthSecond, totalSecond);
+                System.out.printf("Месяц %d, накопленo %.2f%n", monthSecond, totalSecond);
 
         }
 
@@ -73,6 +73,16 @@ public class Main {
 
 
         //
+        int cometPeriod = 79;
+        int currentYear = 2024;
+        int startYear = currentYear - 200;
+        int endYear = currentYear + 100;
 
+        for (int year = 0; year <= endYear; year += cometPeriod) {
+            if (year >= startYear && year <= endYear) {
+                System.out.println(year);
+
+            }
+        }
     }
 }
