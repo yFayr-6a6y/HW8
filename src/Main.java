@@ -47,7 +47,7 @@ public class Main {
             double interest = totalSecond * procent;
             totalSecond += interest;
             if (monthSecond % 6 == 0)
-                System.out.printf("Месяц %d, накоплено %.2f%n", monthSecond, totalSecond);
+                System.out.printf("Месяц %d, накопленo %.2f%n", monthSecond, totalSecond);
 
         }
 
