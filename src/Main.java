@@ -74,7 +74,7 @@ public class Main {
 
         //
         int cometPeriod = 79;
-        int currentYear = java.util.Calendar.getInstance().get(java.util.Calendar.YEAR); // Получаем текущий год
+        int currentYear = 2024;
         int startYear = currentYear - 200;
         int endYear = currentYear + 100;
 
